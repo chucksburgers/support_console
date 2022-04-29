@@ -10,7 +10,9 @@ service:
   framework: Sinatra
   description: 'Used by the Customer Support team to manage inbound support requests. '
   aliases: 
-  tags: 
+  tags:
+  - key: postgres
+    value: 1.1.1
   repositories:
   - name: OL-Demo/support_console
     path: "/"
