@@ -11,8 +11,6 @@ service:
   description: 'Used by the Customer Support team to manage inbound support requests. '
   aliases: 
   tags:
-  - key: postgres
-    value: 1.1.1
   repositories:
   - name: chucksburgers/support_console
     path: "/"
