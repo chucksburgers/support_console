@@ -14,7 +14,7 @@ service:
   - key: postgres
     value: 1.1.1
   repositories:
-  - name: OL-Demo/support_console
+  - name: chucksburgers/support_console
     path: "/"
     provider: github
   tools:
