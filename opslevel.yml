@@ -1,4 +1,16 @@
 ---
+type: component
+name: calculator-worker
+team: build-release-engineering
+meta:
+  source: https://github.com/chucksburgers/calculator-worker
+---
+type: component
+name: calculator-api
+team: build-release-engineering
+meta:
+  source: https://github.com/chucksburgers/calculator-api
+---
 version: 1
 service:
   name: Support Console
@@ -44,15 +56,3 @@ service:
     category: incidents
     url: https://opslevel.pagerduty.com/services/P88H2N0
     environment: Production
----
-type: component
-name: calculator-worker
-team: build-release-engineering
-meta:
-  source: https://github.com/chucksburgers/calculator-worker
----
-type: component
-name: calculator-api
-team: build-release-engineering
-meta:
-  source: https://github.com/chucksburgers/calculator-api
