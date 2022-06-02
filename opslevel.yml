@@ -20,7 +20,7 @@ service:
     path: "/"
     provider: github
   tools:
-  - name: Kubernetes
+  - name: Kubernetesa
     category: orchestrator
     url: https://deploy.bigriver.com/supportconsole
     environment: 
