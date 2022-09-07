@@ -15,10 +15,6 @@ service:
     value: 1.1.1
   - key: is_public_facing
     value: false
-  repositories:
-  - name: chucksburgers/support_console
-    path: "/"
-    provider: github
   tools:
   - name: Kubernetesa
     category: orchestrator
