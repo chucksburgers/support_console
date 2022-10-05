@@ -8,7 +8,7 @@ service:
   owner: internal_tools
   language: Ruby
   framework: Sinatra
-  description: 'Used by the Customer Support team to manage inbound support requests. docker'
+  description: 'Used by the Customer Support team to manage inbound support requests. dockerA'
   aliases: 
   tags:
   - key: postgres_version
