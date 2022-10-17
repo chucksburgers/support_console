@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Support Console
+  name: Support Console GitHub
   lifecycle: end-of-life
   tier: tier_3
   product: 
